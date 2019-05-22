@@ -1,0 +1,8 @@
+将win+e替换为我们xyplorer
+打开注册表，找到计算机\HKEY_CLASSES_ROOT\Folder\shell\opennewwindow\command，将默认值改为xyplorer路径
+例如：C:\Program Files (x86)\XYplorer\XYplorer.exe %2
+注意：后边的%2不要丢了，
+删除DelegateExecute项
+
+
+
